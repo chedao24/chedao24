@@ -1,0 +1,42 @@
+1️⃣ Responde las siguientes preguntas en la sección de comentarios:
+¿Qué es una variable y para qué sirve?
+Una variable nos permite almacenar informacion en un espacio reservado en memoria.
+¿Cuál es la diferencia entre declarar e inicializar una variable?
+Al declararar una variable solamente la creamos no se le asigna un valor alguno, cuando se inicializa si se le asigna un valor que puede ser de diferentes tipos
+¿Cuál es la diferencia entre sumar números y concatenar strings?
+Cuando se suman numeros ambos datos tienen que ser de tipo number, y cuando se concatena puede ser de cualquier tipo (number + "Jose")
+¿Cuál operador me permite sumar o concatenar?
+El operador que permite sumar o concatenar seria el +
+
+2️⃣ Determina el nombre y tipo de dato para almacenar en variables la siguiente información:
+Nombre "String"
+Apellido "String"
+Nombre de usuario en Platzi "String"
+Edad "Number"
+Correo electrónico "string"
+Mayor de edad "Boolean"
+Dinero ahorrado "Number"
+Deudas "Number"
+
+3️⃣ Traduce a código JavaScript las variables del ejemplo anterior y deja tu código en los comentarios.
+var nombre = "Jose";
+var apellido = "Ortiz";
+var username = "Chedao24";
+var edad = 27;
+var email = "jdvo161@gmail.com";
+var adult = true;
+var savings = 500000;
+var debts = 0;
+
+4️⃣ Calcula e imprime las siguientes variables a partir de las variables del ejemplo anterior:
+Nombre completo (nombre y apellido)
+var nombre = "Jose";
+var apellido = "Ortiz";
+console.log(`Mi Nombre es ${nombre} ${apellido}`);
+
+Dinero real (dinero ahorrado menos deudas)
+var savings = 500000;
+var debts = 0;
+var realMoney = savings - debts;
+console.log(`Tengo en mi cuenta ${realMoney}`);
+
